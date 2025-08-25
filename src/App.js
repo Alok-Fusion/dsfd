@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import { useState } from "react";
 import Confetti from "react-confetti";
 import "./App.css";
 
@@ -21,7 +21,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1>Happy 21st Birthday Iffat! 🎉</h1>
+        <h1>Happy 22nd Birthday Diksha! 🎉</h1>
         <p>"Now, where can I sign up to make all your other days just as special?" 🎈</p>
         <button onClick={handleSurprise} className="surprise-button">
           {showSurprise ? "Make It Rain Again 🎊" : "Click Me To Witness an Amazing Journey"}
@@ -36,11 +36,11 @@ function App() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2>🎊 Hey Babe Thanks For Always Sticking Together! 🎊</h2>
+          <h2>🎊 Hey Cutie Thanks For Always Sticking Together! 🎊</h2>
           
-           <p> Just a Reminder of how much cute we look Together!:</p>
+           <p> Just a Reminder of how much cute you look!:</p>
           <div className="gallery">
-            {["image1.jpg", "image2.jpg", "image3.jpg"].map((src, index) => (
+            {["image1.jpeg", "image2.jpeg", "image3.jpeg","image4.jpeg"].map((src, index) => (
               <motion.div
                 className="gallery-item"
                 key={index}
@@ -53,7 +53,7 @@ function App() {
           </div>
         </motion.div>
       )}
-      <p>Made with 💖 by Karna.</p>
+      <p>Made with 💖 by Alok Kushwaha.</p>
     </div>
   );
 }
