@@ -21,7 +21,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1>Happy 22nd Birthday Diksha! 🎉</h1>
+        <h1>Happy 23rd Birthday Diksha! 🎉</h1>
         <p>"Now, where can I sign up to make all your other days just as special?" 🎈</p>
         <button onClick={handleSurprise} className="surprise-button">
           {showSurprise ? "Make It Rain Again 🎊" : "Click Me To Witness an Amazing Journey"}
